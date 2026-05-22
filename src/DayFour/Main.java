@@ -18,7 +18,7 @@ public class Main {
     employees.add(new Employee("Bob", "Finance", 60000));
     employees.add(new Employee("Alice", "HR", 50000)); // duplicate name
     employees.add(new Employee("Ken", "IT", 60000));
-    employees.add(new Employee("Maria", "HR", 50000));
+    employees.add(new Employee("Maria", "HR", 52000));
     employees.add(new Employee("John", "Finance", 70000));
     employees.add(new Employee("Ken", "Finance", 65000)); // duplicate name
     employees.add(new Employee("Lara", "IT", 62000));
