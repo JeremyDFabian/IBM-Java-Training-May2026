@@ -88,7 +88,7 @@ public class Main {
 	
 	    
 	 System.out.println();
-     System.out.println("=== D. Sorted by salary (descending) ===");
+     System.out.println("=== Employees Sorted by Salary (desc) ===");
         
      List<Employee> sorted = new ArrayList<Employee>(employees);
      Collections.sort(sorted);
