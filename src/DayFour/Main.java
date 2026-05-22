@@ -39,7 +39,7 @@ public class Main {
 	        }
 	    }
 	    for (Employee e : cleaned) {
-	        System.out.println(e.getName() + " | " + e.getDepartment() + " | $" + e.getSalary());
+	        System.out.println(e.toString());
 	    }
     
 	    
@@ -94,7 +94,7 @@ public class Main {
      Collections.sort(sorted);
      
         for (Employee e : sorted) {
-            System.out.println(e.getName() + " | " + e.getDepartment() + " | " + e.getSalary());
+            System.out.println(e.toString());
         }
     
 	 System.out.println();
