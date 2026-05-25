@@ -4,8 +4,8 @@ import java.io.*;
 public class StudentFile {
     public static void main(String[] args) {
 
-        try (BufferedReader br = new BufferedReader(new FileReader("IBM-Java-Training-May2026/src/DayFive/student.csv"));
-             BufferedWriter bw = new BufferedWriter(new FileWriter("IBM-Java-Training-May2026/src/DayFive/student.json"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/DayFive/student.csv"));
+             BufferedWriter bw = new BufferedWriter(new FileWriter("src/DayFive/student.json"))) {
 
             bw.write("[");
             bw.newLine();
@@ -23,14 +23,8 @@ public class StudentFile {
                 }
 
                 line = line.replace("\"", "");
-				//String[] words = line.split(",");
 
-                int firstComma = line.indexOf(",");
-                int secondComma = line.indexOf(",", firstComma + 1);
-
-                String id = line.substring(0, firstComma).trim();
-                String name = line.substring(firstComma + 1, secondComma).trim();
-                String course = line.substring(secondComma + 1).trim();
+                String[] words = line.split(",");
 
                 if (!firstObject) {
                     bw.write(",");      
@@ -41,11 +35,11 @@ public class StudentFile {
 
                 bw.write("  {");
                 bw.newLine();
-                bw.write("   \"id\": \"" + words[0] + "\",");
+                bw.write("   \"id\": \"" + words[0].trim() + "\",");
                 bw.newLine();
-                bw.write("   \"name\": \"" + words[1] + "\",");
+                bw.write("   \"name\": \"" + words[1].trim() + "\",");
                 bw.newLine();
-                bw.write("   \"course\": \"" + words[2] + "\"");
+                bw.write("   \"course\": \"" + words[2].trim() + "\"");
                 bw.newLine();
                 bw.write("  }");         
             }
@@ -56,10 +50,8 @@ public class StudentFile {
 
             System.out.println("File written successfully.");
         } 
-
-		catch (IOException e) {
-        System.out.println("File error: " + e.getMessage());
-		
+        catch (IOException e) {
+            System.out.println("File error: " + e.getMessage());
         }
     }
 }
