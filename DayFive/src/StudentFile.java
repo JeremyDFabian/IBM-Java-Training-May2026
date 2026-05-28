@@ -3,8 +3,8 @@ import java.io.*;
 public class StudentFile {
     public static void main(String[] args) {
 
-        try (BufferedReader br = new BufferedReader(new FileReader("src/DayFive/student.csv"));
-             BufferedWriter bw = new BufferedWriter(new FileWriter("src/DayFive/student.json"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/student.csv"));
+             BufferedWriter bw = new BufferedWriter(new FileWriter("src/student.json"))) {
 
             bw.write("[");
             bw.newLine();
