@@ -1,0 +1,5 @@
+[2024-01-15 09:00:01] INFO: Server started
+[2024-01-15 09:05:23] WARN: High memory usage
+[2024-01-15 09:10:45] ERROR: Database connection failed
+[2024-01-15 09:15:30] INFO: Retrying connection
+[2024-01-15 09:20:59] ERROR: Connection timeout

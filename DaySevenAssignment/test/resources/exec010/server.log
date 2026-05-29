@@ -1,0 +1,3 @@
+[2024-08-04 13:00:01] INFO: processed before the skip
+some completely malformed line
+[2024-08-04 13:00:02] ERROR: processed after the skip

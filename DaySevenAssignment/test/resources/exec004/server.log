@@ -1,0 +1,4 @@
+[2024-05-20 18:00:30] INFO: appears first but is not the earliest
+[2024-05-20 09:15:10] WARN: this is the earliest timestamp
+[2024-05-20 23:45:59] ERROR: this is the latest timestamp
+[2024-05-20 12:30:00] INFO: middle of the pack

@@ -1,0 +1,7 @@
+exec012 = Error reading file (generic IOException during read).
+This branch is NOT reliably triggerable on a modern JDK: every failure to OPEN
+the file (missing file, directory, bad permissions, symlink loop) is reported as
+a FileNotFoundException and handled by the file-not-found branch instead. A plain
+IOException only occurs on a real hardware/stream fault mid-read, which cannot be
+produced deterministically in a unit test. The test method is therefore @Disabled
+with this explanation.

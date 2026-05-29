@@ -1,0 +1,6 @@
+[2024-01-15 10:00:05] INFO: Application initialized
+this line has no brackets at all
+[2024-01-15 10:01:10] ERROR: Null pointer exception
+[2024-01-15 10:02:00] DEBUG: some debug message
+[2024-01-15 10:03:45] WARN: Disk space low
+[2024-01-15 10:04:00] INFO

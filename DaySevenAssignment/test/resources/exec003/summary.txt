@@ -1,0 +1,11 @@
+Log Summary Report
+------------------
+Total Entries: 1
+INFO: 0
+WARN: 1
+ERROR: 0
+
+Error Messages:
+
+Earliest Timestamp: 2024-04-10T14:30:25
+Latest Timestamp: 2024-04-10T14:30:25

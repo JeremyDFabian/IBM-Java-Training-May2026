@@ -1,0 +1,3 @@
+[2024-08-02 11:00:01] INFO: first ok
+2024-08-02 11:00:02 WARN: this line has no brackets
+[2024-08-02 11:00:03] ERROR: last ok

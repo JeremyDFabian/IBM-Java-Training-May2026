@@ -1,0 +1,1 @@
+[2024-09-09 09:09:09] INFO: this file reads fine, but the write will fail

@@ -1,0 +1,3 @@
+exec011 = File not found.
+No server.log here on purpose. The test points at a non-existent path so the
+program prints "Log file not found." and writes NO summary.txt.

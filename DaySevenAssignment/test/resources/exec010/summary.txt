@@ -1,0 +1,12 @@
+Log Summary Report
+------------------
+Total Entries: 2
+INFO: 1
+WARN: 0
+ERROR: 1
+
+Error Messages:
+- processed after the skip
+
+Earliest Timestamp: 2024-08-04T13:00:01
+Latest Timestamp: 2024-08-04T13:00:02
